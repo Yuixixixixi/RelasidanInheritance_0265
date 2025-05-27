@@ -1,0 +1,13 @@
+#ifndef IBU_H
+#define IBU_H
+
+class ibu {
+    public:
+    string nama;
+    vector<anak*> daftar anak;
+
+    ibu{string pNama} : nama{pNama} {
+        cout << "Ibu \"" << nama << "\" ada\n";
+    }
+
+
