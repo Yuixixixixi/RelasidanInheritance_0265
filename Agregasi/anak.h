@@ -11,6 +11,6 @@ class anak{
     ~anak() {
         cout << "Anak \"" << nama << "\" tiada\n";
     }
-}
+};
 
 #endif
